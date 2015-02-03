@@ -25,6 +25,11 @@ body {
 }
 
 
+#load-bar1A:hover {
+	background-color: #00CC00;
+}
+
+
 #load-bar1A div {
 	height: 10px;
 	width: 500px;
@@ -46,6 +51,11 @@ body {
 	width: 166.6666px;
 	border: 2px solid black;
 	background-color: #0099CC;
+}
+
+
+#load-bar2A:hover {
+	background-color: #FF6600;
 }
 
 
@@ -73,6 +83,11 @@ body {
 }
 
 
+#load-bar3A:hover {
+	background-color: #FF00FF;
+}
+
+
 #load-bar3A div {
 	height: 10px;
 	width: 500px;
@@ -94,6 +109,11 @@ body {
 	width: 333.3332px;
 	border: 2px solid black;
 	background-color: #0099CC;
+}
+
+
+#load-bar4A:hover{
+	background-color: #FFFF00;
 }
 
 
@@ -121,6 +141,11 @@ body {
 }
 
 
+#load-bar5A:hover {
+	background-color: #0000B8;
+}
+
+
 #load-bar5A div {
 	height: 10px;
 	width: 500px;
@@ -142,6 +167,11 @@ body {
 	width: 500px;
 	border: 2px solid black;
 	background-color: #0099CC;
+}
+
+
+#load-bar6A:hover {
+	background-color: #E60000;
 }
 
 
