@@ -5,11 +5,40 @@ body {
 
 }
 
+#header h1{
+	transform-origin: left top;
+	transition: transform 3s;
+}
+
+#header h1:hover {
+	transform: rotate(360deg);
+}
 
 #header h4 {
 	margin-left: 175px;
+	transition: transform 1s;
 } 
 
+
+.change:hover {
+	transition: transform 3s;
+	transform: scale(1.5);
+}
+
+.move:hover {
+	transition: transform 1s;
+	transform: translate(40px, 0);
+}
+
+.grow:hover {
+	transition: transform 1s;
+	transform: scale(1.25) translateX(5%);
+}
+
+.tint:hover {
+	transition: color 0.5s ease;
+	color: #4d79ff;
+}
 
 #header h1 {
 	margin-bottom: 10px;
@@ -18,15 +47,21 @@ body {
 
 
 #load-bar1A { 
+	transition: background-color 1s ease, transform 1s;
 	height: 10px;
-	width: 83.3333px;
+	width: 500px;
 	border: 2px solid black;
+	border-radius: 10px;
 	background-color: #0099CC;
+
+
 }
 
 
 #load-bar1A:hover {
 	background-color: #00CC00;
+	/*transform: scale(1.5);*/
+	
 }
 
 
@@ -34,6 +69,7 @@ body {
 	height: 10px;
 	width: 500px;
 	border: 2px solid black;
+	border-radius: 10px;
 	background: transparent;
 	margin-top: -2px;
 	margin-left: -2px;
@@ -47,15 +83,18 @@ body {
 
 
 #load-bar2A {
+	transition: background-color 1s ease-in, transform 1s;
 	height: 10px;
-	width: 166.6666px;
+	width: 500px;
 	border: 2px solid black;
+	border-radius: 10px;
 	background-color: #0099CC;
 }
 
 
 #load-bar2A:hover {
 	background-color: #FF6600;
+	/*transform: scale(1.5);*/
 }
 
 
@@ -63,6 +102,7 @@ body {
 	height: 10px;
 	width: 500px;
 	border: 2px solid black;
+	border-radius: 10px;
 	background: transparent;
 	margin-top: -2px;
 	margin-left: -2px;
@@ -76,15 +116,18 @@ body {
 
 
 #load-bar3A {
+	transition: background-color 1s ease-in-out, transform 1s;
 	height: 10px;
-	width: 249.9999px;
+	width: 500px;
 	border: 2px solid black;
+	border-radius: 10px;
 	background-color: #0099CC;
 }
 
 
 #load-bar3A:hover {
 	background-color: #FF00FF;
+	/*transform: scale(1.5);*/
 }
 
 
@@ -92,6 +135,7 @@ body {
 	height: 10px;
 	width: 500px;
 	border: 2px solid black;
+	border-radius: 10px;
 	background: transparent;
 	margin-top: -2px;
 	margin-left: -2px;
@@ -105,15 +149,18 @@ body {
 
 
 #load-bar4A {
+	transition: background-color 1s ease-out, transform 1s;
 	height: 10px;
-	width: 333.3332px;
+	width: 500px;
 	border: 2px solid black;
+	border-radius: 10px;
 	background-color: #0099CC;
 }
 
 
 #load-bar4A:hover{
 	background-color: #FFFF00;
+	/*transform: scale(1.5);*/
 }
 
 
@@ -121,6 +168,7 @@ body {
 	height: 10px;
 	width: 500px;
 	border: 2px solid black;
+	border-radius: 10px;
 	background: transparent;
 	margin-top: -2px;
 	margin-left: -2px;
@@ -134,15 +182,18 @@ body {
 
 
 #load-bar5A {
+	transition: background-color 1s ease, transform 1s;
 	height: 10px;
-	width: 416.6665px;
+	width: 500px;
 	border: 2px solid black;
+	border-radius: 10px;
 	background-color: #0099CC;
 }
 
 
 #load-bar5A:hover {
 	background-color: #0000B8;
+	/*transform: scale(1.5);*/
 }
 
 
@@ -150,6 +201,7 @@ body {
 	height: 10px;
 	width: 500px;
 	border: 2px solid black;
+	border-radius: 10px;
 	background: transparent;
 	margin-top: -2px;
 	margin-left: -2px;
@@ -163,15 +215,18 @@ body {
 
 
 #load-bar6A {
+	transition: background-color 1s ease, transform 1s;
 	height: 10px;
 	width: 500px;
 	border: 2px solid black;
+	border-radius: 10px;
 	background-color: #0099CC;
 }
 
 
 #load-bar6A:hover {
 	background-color: #E60000;
+	/*transform: scale(1.5);*/
 }
 
 
@@ -179,6 +234,7 @@ body {
 	height: 10px;
 	width: 500px;
 	border: 2px solid black;
+	border-radius: 10px;
 	background: transparent;
 	margin-top: -2px;
 	margin-left: -2px;
